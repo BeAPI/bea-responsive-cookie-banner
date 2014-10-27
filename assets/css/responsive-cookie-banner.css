@@ -6,14 +6,14 @@
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(fonts/open-sans-semi-bold.woff) format('woff');
+	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/open-sans-semi-bold.woff) format('woff');
 }
 
 @font-face {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
-	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/open-sans-bold.woff) format('woff');
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/open-sans-bold.woff) format('woff');
 }
 
 /******************* MAIN *******************/
