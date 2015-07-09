@@ -16,11 +16,6 @@ function rcb_register_assets() {
  * @return boolean
  */
 function rcb_print_html() {
-	// Check if the cookie is set
-	if ( isset( $_COOKIE['cookie-law'] ) ) {
-		return false;
-	}
-
 	// Enqueue assets!
 	wp_enqueue_script( "responsive-cookie-banner-js" );
 	wp_enqueue_style( 'responsive-cookie-banner-css' );
