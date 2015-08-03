@@ -1,0 +1,16 @@
+{
+  "name": "bea/responsive-cookie-banner",
+  "description": "Fork of WordPress plugin Responsive Cookie Banner",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Amaury Balmer",
+      "email": "technique@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-plugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}
