@@ -40,6 +40,7 @@ No FAQ
 <li><strong>Version 1.1</strong> - making the banner relative position not absolute.</li>
 <li><strong>Version 1.2</strong> - making all text updatable so it can easily be used with different languages.</li>
 <li><strong>Version 1.3</strong> - Code refactoring / security sanitizing / Compatibility with static cache plugin</li>
+<li><strong>Version 2.0</strong> - Rename plugin (conflit update) / Remove custom fonts</li>
 </ul>
 
 == Upgrade Notice ==

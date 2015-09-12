@@ -1,20 +1,5 @@
 /* This file contains all the css for cookie banner */
 
-/******************* FONTS *******************/
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/open-sans-semi-bold.woff) format('woff');
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/open-sans-bold.woff) format('woff');
-}
 
 /******************* MAIN *******************/
 
@@ -24,7 +9,6 @@
 	position: relative;
 	z-index: 999999;
 	display: none;
-	font-family: 'Open Sans';
 	font-weight: 600;
 	font-size: 15px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
@@ -57,7 +41,6 @@
 	border: 0;
 	font-size: 14px;
 	margin-right: 12px;
-	font-family: 'Open Sans';
 	font-weight: 700;
 	padding: 6px 10px 6px 10px;
 	background-color: #4D90FE;

@@ -1,8 +1,8 @@
 <?php
 
 /*
-* Plugin Name: Responsive Cookie Banner
-* Version: 1.3.1
+* Plugin Name: BEA - Responsive Cookie Banner
+* Version: 2.0
 * Author: Amaury Balmer
 * Author email: balmer.amaury at gmail dot com
 * License: GPL2
@@ -13,7 +13,7 @@
 
 
 // Plugin constants
-define('RCB_VERSION', '1.3.1');
+define('RCB_VERSION', '2.0');
 define('RCB_URL', plugin_dir_url ( __FILE__ ));
 define('RCB_DIR', plugin_dir_path( __FILE__ ));
 
