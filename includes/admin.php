@@ -10,12 +10,13 @@ function rcb_add_admin_menu() {
 }
 
 function register_rcb_settings() {
-// Add options into the settings page
+	// Add options into the settings page
 	register_setting( 'cookie-banner-group', 'cookie_banner_same_window' );
 	register_setting( 'cookie-banner-group', 'cookie_banner_text' );
 	register_setting( 'cookie-banner-group', 'cookie_banner_accept_button_text' );
 	register_setting( 'cookie-banner-group', 'cookie_banner_more_info_text' );
 	register_setting( 'cookie-banner-group', 'cookie_banner_more_info' );
+	register_setting( 'cookie-banner-group', 'cookie_banner_more_info_title' );
 }
 
 // The HTML for the settings page
@@ -37,6 +38,10 @@ function rcb_admin_page() {
 
 			<p>'More info' link text:
 				<input type="text" style="width: 500px; display:block;" name="cookie_banner_more_info_text" id="cookie_banner_more_info_text" value="<?php echo esc_attr(get_option( 'cookie_banner_more_info_text', 'MORE INFO' )); ?>">
+			</p>
+
+			<p>'More info' link title attribute:
+				<input type="text" style="width: 500px; display:block;" name="cookie_banner_more_info_title" id="cookie_banner_more_info_title" value="<?php echo esc_attr( get_option( 'cookie_banner_more_info_title', 'More info about cookies' ) ); ?>">
 			</p>
 
 			<p>'More info' link URL:

@@ -29,7 +29,7 @@ function rcb_print_html() {
 
 			<div class="right">
 				<p><input class="accept" name="accept" type="submit" value="<?php echo esc_attr(get_option( 'cookie_banner_accept_button_text', 'ACCEPT' )); ?>" />
-					<a class="more-info" target="_blank" href="<?php echo esc_attr(get_option( 'cookie_banner_more_info' )); ?>"><?php echo esc_html(get_option( 'cookie_banner_more_info_text', 'MORE INFO' )); ?></a>
+					<a class="more-info" target="_blank" href="<?php echo esc_attr(get_option( 'cookie_banner_more_info' )); ?>" title="<?php echo esc_html( get_option( 'cookie_banner_more_info_title', 'More info about cookies' ) ); ?>"><?php echo esc_html(get_option( 'cookie_banner_more_info_text', 'MORE INFO' )); ?></a>
 					<input name="new_window" id="new_window" type="hidden" value="0<?php echo esc_attr(get_option( 'cookie_banner_same_window' )); ?>">
 				</p>
 			</div>
